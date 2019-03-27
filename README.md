@@ -6,7 +6,9 @@ This guide consist of several small parts, guiding you through the process of cr
 Every part is recorded as a video,
  containing a reference branch in this repository to show the changes made in that part.
 Thus, if you are interested in for example part one of the guide, you can checkout the branch `part-1`.
-The `README.md` in that branch will provide you the necessary feedback about that part and a link to the video. 
+The `README.md` in that branch will provide you the necessary feedback about that part and a link to the video.
+
+To view the end result of all parts combined, the `master` branch should be checked out. 
  
 The subject domain of this guide will be that of a Food Ordering service.
 The service is expanded upon in every part,
