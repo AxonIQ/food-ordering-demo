@@ -1,18 +1,15 @@
-# Food Ordering Service
+# The Axon Quick Start Guide 
 
-This repository contains a demo application, focusing on the Food Ordering domain.
-This repository is for example used in our Axon Introduction video series.
+This repository supports the 'Axon Quick Start Guide' as published by AxonIQ.
+This guide consist of several small parts, guiding you through the process of creating an Axon application.
 
-# Part 2 - Core API
+Every part is recorded as a video,
+ containing a reference branch in this repository to show the changes made in that part.
+Thus, if you are interested in for example part one of the guide, you can checkout the branch `part-1`.
+The `README.md` in that branch will provide you the necessary feedback about that part and a link to the video. 
+ 
+The subject domain of this guide will be that of a Food Ordering service.
+The service is expanded upon in every part,
+ eventually supplying the information to build a fully fledged application using Axon
 
-This part of the guide introduces the notion of the Core API package and it's contents.
-As an Axon application's API is all about the Command-, Event- and QueryMessages,
- this part focuses on introducing these messages into the application.  
-
-In this guide, we have decided to leverage Kotlin to provide a concise model to describe this API in.
-This choice has been made to speed up the implementation time for the video
- and thus should not be regarded as a hard requirement.
-You are thus free to decided how you implement your API; POJO's are also a fair option for example,
- as well as leveraging something like Lombok on top of it.
-
-The video relating to this part of the guide can be found [here]().
+The videos relating to this guide can be found [this](https://www.youtube.com/axoniq) AxonIQ YouTube channel.
