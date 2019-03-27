@@ -1,8 +1,3 @@
-# Food Ordering Service
-
-This repository contains a demo application, focusing on the Food Ordering domain.
-This repository is for example used in our Axon Introduction video series.
-
 # Part 1 - The Structure of an Axon Application
 
 This part is specific about the structure of an Axon application.
