@@ -1,8 +1,3 @@
-# Food Ordering Service
-
-This repository contains a demo application, focusing on the Food Ordering domain.
-This repository is for example used in our Axon Introduction video series.
-
 # Part 2 - Core API
 
 This part of the guide introduces the notion of the Core API package and it's contents.
