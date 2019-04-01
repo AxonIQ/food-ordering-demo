@@ -1,14 +1,10 @@
-# Part 3 - The Command Model
+# Part 4 - The Query Model
 
-This part of the guide introduces will introduce the Command Model of our application.
-The Command Model in this sense refers to the 'C' in CQRS,
+This part of the guide will introduce the Query Model of our application.
+The Query Model in this sense refers to the 'Q' in CQRS,
  as is further specified [here](https://axoniq.io/resources/cqrs).  
 
-In this guide, we will introduce an Aggregate,
- how this will handle commands and how to do Event Sourcing on that Aggregate, when utilizing Axon Framework.
-If you are interested in specifics on Aggregates,
- checking out our information about [Domain Driven Design](https://axoniq.io/resources/domain-driven-design) is a good starting point.
-For additional information about Event Sourcing,
- we would like to refer you to this [page](https://axoniq.io/resources/event-sourcing).
+In this guide, we will introduce a simple Query Model, an Event Handling Component,
+ updating the Query Model through Event Handlers and how to introduce a Query Handler.
 
 The video relating to this part of the guide can be found [here]().
