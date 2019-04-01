@@ -1,6 +1,6 @@
 # Part 3 - The Command Model
 
-This part of the guide introduces will introduce the Command Model of our application.
+This part of the guide will introduce the Command Model of our application.
 The Command Model in this sense refers to the 'C' in CQRS,
  as is further specified [here](https://axoniq.io/resources/cqrs).  
 
