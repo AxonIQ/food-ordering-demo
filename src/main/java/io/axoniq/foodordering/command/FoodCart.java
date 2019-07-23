@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.UUID;
 
 @Aggregate
-public class FoodCart {
+class FoodCart {
 
     private static final Logger logger = LoggerFactory.getLogger(FoodCart.class);
 
