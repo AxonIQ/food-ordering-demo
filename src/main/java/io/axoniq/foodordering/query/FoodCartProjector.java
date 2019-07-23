@@ -9,11 +9,11 @@ import org.springframework.stereotype.Component;
 import java.util.Collections;
 
 @Component
-public class FoodCartEventHandler {
+public class FoodCartProjector {
 
     private final FoodCartViewRepository foodCartViewRepository;
 
-    public FoodCartEventHandler(FoodCartViewRepository foodCartViewRepository) {
+    public FoodCartProjector(FoodCartViewRepository foodCartViewRepository) {
         this.foodCartViewRepository = foodCartViewRepository;
     }
 
