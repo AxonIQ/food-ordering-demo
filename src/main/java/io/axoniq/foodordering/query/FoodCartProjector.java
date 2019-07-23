@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import java.util.Collections;
 
 @Component
-public class FoodCartProjector {
+class FoodCartProjector {
 
     private final FoodCartViewRepository foodCartViewRepository;
 
@@ -43,5 +43,4 @@ public class FoodCartProjector {
     public FoodCartView handle(FindFoodCartQuery query) {
         return foodCartViewRepository.findById(query.getFoodCartId()).orElse(null);
     }
-
 }
