@@ -15,7 +15,7 @@ import java.util.concurrent.CompletableFuture;
 
 @RequestMapping("/foodCart")
 @RestController
-public class FoodOrderingController {
+class FoodOrderingController {
 
     private final CommandGateway commandGateway;
     private final QueryGateway queryGateway;
