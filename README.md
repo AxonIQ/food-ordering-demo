@@ -14,4 +14,4 @@ The subject domain of this guide will be that of a Food Ordering service.
 The service is expanded upon in every part,
  eventually supplying the information to build a fully fledged application using Axon
 
-The videos relating to this guide can be found [this](https://www.youtube.com/axoniq) AxonIQ YouTube channel.
+The videos relating to this guide can be found on AxonIQ's [YouTube channel](https://www.youtube.com/axoniq).
