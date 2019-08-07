@@ -11,4 +11,4 @@ If you are interested in specifics on Aggregates,
 For additional information about Event Sourcing,
  we would like to refer you to this [page](https://axoniq.io/resources/event-sourcing).
 
-The video relating to this part of the guide can be found [here](https://www.youtube.com/watch?v=vnCxjWZrrk0).
+The video relating to this part of the guide can be found [here](https://www.youtube.com/watch?v=7oy4w5THFEU).
