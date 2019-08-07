@@ -8,4 +8,4 @@ In this you should think about the used dependencies for this project, as found 
  
 The introduced directories contain a small `description.md` to provide a little background why those are present.
 
-The video relating to this part of the guide can be found [here]().
+The video relating to this part of the guide can be found [here](https://www.youtube.com/watch?v=tqn9p8Duy54).
