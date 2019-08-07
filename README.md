@@ -1,10 +1,12 @@
-# Part 4 - The Query Model
+# Part 5 - Connecting the UI
 
-This part of the guide will introduce the Query Model of our application.
-The Query Model in this sense refers to the 'Q' in CQRS,
- as is further specified [here](https://axoniq.io/resources/cqrs).  
+This part of the guide the Food Ordering application will be connected to the UI.
+To that end, REST endpoints have been introduced in a dedicated package.
 
-In this guide, we will introduce a simple Query Model, an Event Handling Component,
- updating the Query Model through Event Handlers and how to introduce a Query Handler.
+As we follow the [CQRS](https://axoniq.io/resources/cqrs) paradigm, we segregate the Command Model from our Query Model.
+Thus, we have dedicated Command and Query messages which they handle respectively.
 
-The video relating to this part of the guide can be found [here](https://www.youtube.com/watch?v=jS1vfc5EohM).
+In this guide, we will introduce how you can dispatch Command and Query Messages by using the `CommandGateway`
+ and `QueryGateway` within for example a REST Controller.
+
+The video relating to this part of the guide can be found [here](https://www.youtube.com/watch?v=lxonQnu1txQ).
