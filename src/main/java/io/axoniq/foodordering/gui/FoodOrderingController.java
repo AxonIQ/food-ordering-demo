@@ -8,7 +8,11 @@ import io.axoniq.foodordering.query.FoodCartView;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
@@ -27,7 +31,7 @@ class FoodOrderingController {
 
     @PostMapping("/create")
     public CompletableFuture<UUID> createFoodCart() {
-        return commandGateway.send(new CreateFoodCartCommand());
+        return commandGateway.send(new CreateFoodCartCommand(UUID.randomUUID()));
     }
 
     @PostMapping("/{foodCartId}/select/{productId}/quantity/{quantity}")
